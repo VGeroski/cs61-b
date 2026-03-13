@@ -2,8 +2,7 @@ package cs61b.lectures.lec05_lists3;
 
 /** Singly linked list of numbers, that has nodes (Mustard - generic type) */
 public class SLList<Mustard> {
-    // since IntNode will be used only for this class
-    // we can make IntNode to be nested
+
     private class MustardNode {
         Mustard item;
         MustardNode next;

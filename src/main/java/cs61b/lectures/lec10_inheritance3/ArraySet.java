@@ -57,10 +57,7 @@ public class ArraySet<T> implements Iterable<T>  {
 
         @Override
         public boolean hasNext() {
-            if (wizPos < size) {
-                return true;
-            }
-            return false;
+            return wizPos < size;
         }
 
         @Override

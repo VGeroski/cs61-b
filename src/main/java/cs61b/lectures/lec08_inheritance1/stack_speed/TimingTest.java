@@ -1,6 +1,5 @@
 package cs61b.lectures.lec08_inheritance1.stack_speed;
 
-
 public class TimingTest {
     // Adjust these if you're running out of memory or time
     private static final int NUM_ITERATIONS = 1000;     // How many times to create and fill a new stack

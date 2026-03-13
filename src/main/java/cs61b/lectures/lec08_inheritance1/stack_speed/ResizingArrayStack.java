@@ -27,7 +27,7 @@ public class ResizingArrayStack<E> implements Stack<E> {
             throw new EmptyStackException();
         }
         E item = arr[--size];
-        arr[size] = null; // to help GC
+        arr[size] = null; // to help GC (avoid loitering)
         // shrink if needed
         if (size > 0 && size == arr.length / 4) {
             resize(arr.length / 2);

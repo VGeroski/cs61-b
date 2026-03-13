@@ -18,7 +18,7 @@ public class AList<Item> implements List61B<Item> {
 
     /** Inserts item into given position.
      * Code from discussion #3 */
-    @Override // A REMINDER THAT I AM OVERLOADING, IT DOESN'T MAKING OVERRIDING HAPPEN
+    @Override // A REMINDER THAT I AM OVERLOADING, IT DOESN'T MAKE OVERRIDING HAPPEN
     public void insert(Item x, int position) {
         Item[] newItems = (Item[]) new Object[items.length + 1];
 
